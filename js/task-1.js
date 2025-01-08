@@ -1,5 +1,6 @@
 function slugify(title) {
-  return (titleLowerCase = title.toLowerCase().split(' ').join('-'));
+  let titleLowerCase = title.toLowerCase().split(' ').join('-');
+  return titleLowerCase;
 }
 
 console.log(slugify('Arrays for beginners')); // "arrays-for-beginners"
